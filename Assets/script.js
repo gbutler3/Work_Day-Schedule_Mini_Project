@@ -7,16 +7,22 @@ function today(){
     }
     setInterval(today, 1000)
 
-    $(document).ready(function () { //once the html loads all of these functions will be ready to work 
-        // saveBtn click listener 
-        $(".saveBtn").on("click", function () {
-            // Get nearby values of the description in JQuery
-            var description = $(this).siblings(".description").val();
-            var time = $(this).parent().attr("id");
-            console.log("save button is being called")
+$(document).ready(function () { //once the html loads all of these functions will be ready to work 
+    // saveBtn click listener 
+    $(".saveBtn").on("click", function () {
+        // Get nearby values of the description in JQuery
+        var description = $(this).siblings(".description").val();
+        var time = $(this).parent().attr("id");
+        console.log("save button is being called")
+
+        // Save text in local storage
+        localStorage.setItem(time, description);
+    })
+
+    //Clears on the local storage area on reload.
+    $(".clearBtn").on("click", function (){
+        window.localStorage.clear();
+        console.log("clear")
+    })
     
-            // Save text in local storage
-            localStorage.setItem(time, description);
-        })
-        
-    });
+});
