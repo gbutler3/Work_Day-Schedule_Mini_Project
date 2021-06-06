@@ -18,4 +18,5 @@ function today(){
             // Save text in local storage
             localStorage.setItem(time, description);
         })
+        
     });
