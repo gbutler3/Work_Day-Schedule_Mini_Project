@@ -17,12 +17,30 @@ $(document).ready(function () { //once the html loads all of these functions wil
 
         // Save text in local storage
         localStorage.setItem(time, description);
-    })
+    });
 
-    //Clears on the local storage area on reload.
+    //Clears on the local storage area
     $(".clearBtn").on("click", function (){
         window.localStorage.clear();
-        console.log("clear")
+        console.log("clear localstorage");
+    });
+
+    //clears the text out of the textarea
+    $("#clear").click(function(){
+        $(".description").val("");
     })
-    
+
+    //This pulls anything that is saved in local storage to display on the page if reloaded because if not it just gets displayed in the 
+    //localStorage area and not on the actual webpage. 
+    $("#hour1 .description").val(localStorage.getItem("hour1"));
+    $("#hour2 .description").val(localStorage.getItem("hour2"));
+    $("#hour3 .description").val(localStorage.getItem("hour3"));
+    $("#hour4 .description").val(localStorage.getItem("hour4"));
+    $("#hour5 .description").val(localStorage.getItem("hour5"));
+    $("#hour6 .description").val(localStorage.getItem("hour6"));
+    $("#hour7 .description").val(localStorage.getItem("hour7"));
+    $("#hour8 .description").val(localStorage.getItem("hour8"));
+    $("#hour9 .description").val(localStorage.getItem("hour9"));
+    $("#hour10 .description").val(localStorage.getItem("hour10"));
+    $("#hour11 .description").val(localStorage.getItem("hour11"));
 });
