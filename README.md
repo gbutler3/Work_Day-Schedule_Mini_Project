@@ -17,10 +17,11 @@ You'll need to use the [Moment.js](https://momentjs.com/) library to work with d
 
 ## Screen Shot
 
-![A user clicks on slots on the color-coded calendar and edits the events.](#)
+![preview of web page1](./Assets/Images/Capture1.png)
+![preview of web page1](./Assets/Images/Capture2.png)
 
 ## Links
 
-- The URL of the deployed application:
+- The URL of the deployed application: https://gbutler3.github.io/Work_Day-Schedule_Mini_Project/
 
-- The URL of the GitHub repository:
+- The URL of the GitHub repository: https://github.com/gbutler3/Work_Day-Schedule_Mini_Project
