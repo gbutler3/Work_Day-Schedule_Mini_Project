@@ -17,8 +17,8 @@ You'll need to use the [Moment.js](https://momentjs.com/) library to work with d
 
 ## Screen Shot
 
-![preview of web page1](./Assets/Images/Capture1.png)
-![preview of web page1](./Assets/Images/Capture2.png)
+![preview of web page1](./Assets/Images/Capture1.PNG)
+![preview of web page1](./Assets/Images/Capture2.PNG)
 
 ## Links
 
