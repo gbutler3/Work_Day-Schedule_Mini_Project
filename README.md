@@ -16,7 +16,7 @@ You'll need to use the [Moment.js](https://momentjs.com/) library to work with d
 - WHEN I refresh the page, the saved events persist
 
 ## Technologies Used
-- HTM
+- HTML
 - CSS
 - jQuery
 
