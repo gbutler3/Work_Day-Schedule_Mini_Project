@@ -6,6 +6,10 @@ Create a simple calendar application that allows a user to save events for each 
 
 You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
 
+## License
+
+![MIT License](https://img.shields.io/badge/License-MIT-brightgreen)
+
 ## Goals
 
 - WHEN I open the planner the current day is displayed at the top of the calendar
