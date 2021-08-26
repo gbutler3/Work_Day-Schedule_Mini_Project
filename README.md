@@ -15,6 +15,11 @@ You'll need to use the [Moment.js](https://momentjs.com/) library to work with d
 - WHEN I click the save button for that timeblock, the text for that event is saved in local storage
 - WHEN I refresh the page, the saved events persist
 
+## Technologies Used
+- HTM
+- CSS
+- jQuery
+
 ## Screen Shot
 
 ![preview of web page1](./Assets/Images/Capture1.PNG)
